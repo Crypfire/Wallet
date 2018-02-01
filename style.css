@@ -1,0 +1,65 @@
+body {
+  background: url(bg.jpg) top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e04f32;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 1px;
+  height: 101vh;
+}
+.main {
+  position: sticky;
+  height: 160px;
+  width: 100vw;
+  display: inline;
+  position: fixed;
+  top: 50px;
+
+}
+.main div {
+  display: inline;
+  padding-right: calc(1/3*((100vw - 310px)/2));
+  padding-left: calc(1/3*((100vw - 310px)/2));
+}
+
+.profile {
+
+}
+
+.accountdetails {
+  width: 100%;
+  font-weight: 900;
+}
+
+.name, .details {
+  width: 100vw;
+  text-align: center;
+}
+
+#risingarrow, #pf {
+  width: 100px;
+  height: 100px;
+}
+
+#settings {
+  width: 50px;
+  height: 50px;
+  padding: 25px;
+}
+
+.transaction {
+  position: fixed;
+  top: 300px;
+  width: 80%;
+  height: calc(100vh - 350px);
+  right: 10%;
+  background-color: hsla(10, 73%, 53%, 0.75);
+  overflow-y: scroll;
+}
+
+.transaction div {
+  width: 100%;
+  height: 300px;
+  position: calc(sticky + 300px);
+}

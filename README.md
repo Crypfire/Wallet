@@ -1,4 +1,1 @@
-# Wallet
-Wallet for 'Flames'
-
-In development...
+## Alpha version - still in development
